@@ -10,12 +10,12 @@ let package = Package(
     products: [
         .library(
             name: "MDMCoreData",
-            targets: ["MDMCoreData"]
+            targets: ["MDMCoreDataLib"]
         ),
     ],
     targets: [
         .target(
-            name: "MDMCoreData",
+            name: "MDMCoreDataLib",
             path: "Classes",
             publicHeadersPath: ".",
             cSettings: [
