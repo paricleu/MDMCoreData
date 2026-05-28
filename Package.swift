@@ -20,6 +20,12 @@ let package = Package(
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("."),
+                .headerSearchPath("MDMCoreDataCore"),
+                .headerSearchPath("MDMFetchedResultsCollectionDataSource"),
+                .headerSearchPath("MDMFetchedResultsTableDataSource"),
+                .headerSearchPath("MDMPersistenceController"),
+                .headerSearchPath("NSManagedObject+MDMCoreDataAdditions"),
+                .headerSearchPath("Categories"),
             ]
         )
     ]
